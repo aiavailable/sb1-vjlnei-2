@@ -1,0 +1,72 @@
+body {
+  width: 300px;
+  padding: 16px;
+  font-family: system-ui, -apple-system, sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+h1 {
+  font-size: 18px;
+  margin: 0;
+  color: #1a73e8;
+}
+
+h2 {
+  font-size: 16px;
+  margin: 0;
+  color: #1a73e8;
+}
+
+.features {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+button {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  background: #1a73e8;
+  color: white;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+button:hover {
+  background: #1557b0;
+}
+
+.analysis {
+  border-top: 1px solid #e0e0e0;
+  padding-top: 16px;
+}
+
+.analysis.hidden {
+  display: none;
+}
+
+#analysisResults {
+  margin-top: 8px;
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+#analysisResults p {
+  margin: 8px 0;
+}
+
+.warning {
+  color: #d93025;
+  font-weight: 500;
+}
+
+.info {
+  color: #188038;
+  font-weight: 500;
+}
